@@ -2,7 +2,7 @@ const name = "Anushka";
 let age = 22;
 const hasHobbies = true;
 
-name = 'Anshu';
+name = 'Anshu'; // throws error
 age = 23;
 
 function summarizeUser(userName, userAge, userHasHobby) {
@@ -15,7 +15,5 @@ function summarizeUser(userName, userAge, userHasHobby) {
     userHasHobby
   );
 }
-
-console.log(userName)
 
 console.log(summarizeUser(name, age, hasHobbies));
